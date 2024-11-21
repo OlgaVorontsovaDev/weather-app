@@ -1,0 +1,40 @@
+.weather {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.weather__form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.weather__input {
+  width: 300px;
+  box-sizing: border-box;
+  padding: 15px;
+  padding-right: 50px;
+  border-radius: 8px;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.weather__button {
+  position: absolute;
+  top: 17px;
+  right: 15px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.weather__button-icon {
+  width: 26px;
+  height: auto;
+}
+
+.weather__temperature,
+.weather__info {
+  font-size: 24px;
+  font-weight: 600;
+}
